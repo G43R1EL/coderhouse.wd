@@ -46,7 +46,29 @@
       </nav>
     </header>
     <main class="container overflow-hidden">
-
+      <div class="card my-3 p-5">
+        <div class="row">
+          <form>
+            <h1>Contacto</h1>
+            <p>Utilice este formulario para contactarse conmigo, recuerde que también puede contactarse a traves de nuestras redes sociales o WhatsApp.</p>
+            <div class="mb-3">
+              <label for="inputName" class="form-label">Nombre</label>
+              <input type="email" class="form-control" id="inputName" aria-describedby="nameHelp">
+              <div id="nameHelp" class="form-text">Ingrese su nombre o razón social.</div>
+            </div>
+            <div class="mb-3">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Ingrese su email</div>
+            </div>
+            <div class="mb-3">
+              <label for="textMessage" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="textMessage" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
     </main>
     <footer class="text-center text-lg-start bg-dark text-muted">
       <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
