@@ -1,0 +1,17 @@
+:root {
+    --stm-color: #bf9cce;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--stm-color);
+}
+
+.btn-outline-stm {
+    color: var(--stm-color);
+    border-color: var(--stm-color);
+}
+
+.btn-outline-stm:hover {
+    color: #000;
+    background-color: var(--stm-color);
+  }
