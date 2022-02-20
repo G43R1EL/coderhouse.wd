@@ -14,4 +14,8 @@
 .btn-outline-stm:hover {
     color: #ffffff;
     background-color: var(--stm-color);
-  }
+}
+
+.text-stm {
+    color: var(--stm-color);
+}
