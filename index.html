@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Styles -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <!-- Sandra Torrez Style -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="../assets/isologo_sandratorrez.svg" type="image/x-icon">
     <title>Sandra Torrez Make Up</title>
 </head>
 <body>
+  <!-- Site Header -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
+        <!-- Site logo -->
           <a class="navbar-brand" href="#">
             <img src="./assets/imagotipo_sandratorrez_horizontal.svg" height="48" alt="Sandra Torrez Make Up">
           </a>
+        <!-- Hamburguer menu button -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+        <!-- Main navigation menu -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -46,13 +52,17 @@
         </div>
       </nav>
     </header>
+  <!-- Site content -->
     <main class="overflow-hidden">
+    <!-- Main slider -->
       <div id="slider" class="carousel slide" data-bs-ride="carousel">
+      <!-- Main slider controls "Indicators" -->
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
+      <!-- Main slider content -->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./assets/slider_01.jpg" class="d-block w-100" alt="Imágen de slider">
@@ -64,15 +74,18 @@
             <img src="./assets/slider_03.jpg" class="d-block w-100" alt="Imágen de slider">
           </div>
         </div>
+      <!-- Main slider controls "Previous" -->
         <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span class="visually-hidden">Anterior</span>
         </button>
+      <!-- Main slider controls "Next" -->
         <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span class="visually-hidden">Siguiente</span>
         </button>
       </div>
+    <!-- Main content "Services" -->
       <div class="container">
         <div class="row p-3">
           <div class="mb-sm-3 col-md-6 col-lg-3">
@@ -81,7 +94,7 @@
               <div class="card-body">
                 <h5 class="card-title">Maquillaje social</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, atque voluptatem voluptate qui quod provident saepe nam fugiat accusamus architecto tenetur blanditiis ipsum quos iste sit perferendis expedita maxime quam esse corporis.</p>
-                <a href="#" class="btn btn-primary">Leer más...</a>
+                <a href="./pages/services.html#social" class="btn btn-primary">Leer más...</a>
               </div>
             </div>
           </div>
@@ -91,7 +104,7 @@
               <div class="card-body">
                 <h5 class="card-title">Maquillaje editorial</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, dicta fugit nesciunt eius, autem qui, assumenda cumque dolorem non omnis asperiores inventore vero quam voluptatem?</p>
-                <a href="#" class="btn btn-primary">Leer más...</a>
+                <a href="./pages/services.html#editorial" class="btn btn-primary">Leer más...</a>
               </div>
             </div>
           </div>
@@ -101,7 +114,7 @@
               <div class="card-body">
                 <h5 class="card-title">Carrera de maquilladora profesional</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quasi, ex distinctio esse voluptatum molestiae necessitatibus repudiandae molestias excepturi vitae, nulla laborum sed eveniet numquam harum! Ipsam nobis porro nulla!</p>
-                <a href="#" class="btn btn-primary">Leer más...</a>
+                <a href="./pages/services.html#profesional" class="btn btn-primary">Leer más...</a>
               </div>
             </div>
           </div>
@@ -111,15 +124,16 @@
               <div class="card-body">
                 <h5 class="card-title">Taller de automaquillaje</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro ad in eveniet doloribus provident saepe officia fugit ex, et quos excepturi architecto blanditiis exercitationem distinctio doloremque mollitia veritatis quidem.</p>
-                <a href="#" class="btn btn-primary">Leer más...</a>
+                <a href="./pages/services.html#automaquillaje" class="btn btn-primary">Leer más...</a>
               </div>
             </div>
           </div>
         </div>
+      <!-- Main content "Testimonial" -->
         <div class="row p-3">
           <div class="mb-sm-3 col-md-6 col-lg-3">
             <div class="card border-0 p-3">
-              <img src="./assets/person.png" class="testimonial__img shadow" alt="Imagen testimonial">
+              <img src="./assets/person.png" class="testimonial__img shadow hover__zoom" alt="Imagen testimonial">
               <div class="card-body text-center">
                 <h5 class="card-title"><i class="fab fa-facebook-f"></i> unUsuario</h5>
                 <q class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis quasi amet aperiam molestiae voluptates dolore.</q>
@@ -128,7 +142,7 @@
           </div>
           <div class="mb-sm-3 col-md-6 col-lg-3">
             <div class="card border-0 p-3">
-              <img src="./assets/person.png" class="testimonial__img shadow" alt="Imagen testimonial">
+              <img src="./assets/person.png" class="testimonial__img shadow hover__zoom" alt="Imagen testimonial">
               <div class="card-body text-center">
                 <h5 class="card-title"><i class="fab fa-instagram"></i> unUsuario</h5>
                 <q class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius sed ratione itaque hic, velit nobis.</q>
@@ -137,7 +151,7 @@
           </div>
           <div class="mb-sm-3 col-md-6 col-lg-3">
             <div class="card border-0 p-3">
-              <img src="./assets/person.png" class="testimonial__img shadow" alt="Imagen testimonial">
+              <img src="./assets/person.png" class="testimonial__img shadow hover__zoom" alt="Imagen testimonial">
               <div class="card-body text-center">
                 <h5 class="card-title"><i class="fab fa-reddit"></i> unUsuario</h5>
                 <q class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident libero quasi nulla in obcaecati? Excepturi.</q>
@@ -146,7 +160,7 @@
           </div>
           <div class="mb-sm-3 col-md-6 col-lg-3">
             <div class="card border-0 p-3">
-              <img src="./assets/person.png" class="testimonial__img shadow" alt="Imagen testimonial">
+              <img src="./assets/person.png" class="testimonial__img shadow hover__zoom" alt="Imagen testimonial">
               <div class="card-body text-center">
                 <h5 class="card-title"><i class="fab fa-twitter"></i> unUsuario</h5>
                 <q class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi praesentium assumenda ratione temporibus architecto consectetur.</q>
@@ -156,7 +170,9 @@
         </div>
       </div>
     </main>
+  <!-- Site footer -->
     <footer class="text-center text-lg-start bg-dark text-stm">
+    <!-- Site footer social area -->
       <section class="d-flex justify-content-center justify-content-lg-between p-4">
         <div class="me-5 d-none d-lg-block">
           <span>Seguíme en mis redes sociales:</span>
@@ -168,9 +184,11 @@
           <a href="" class="me-4 text-reset"><i class="fab fa-whatsapp"></i></a>
         </div>
       </section>
+    <!-- Site footer three columns -->
       <section>
         <div class="container-fluid text-center text-md-start mt-5">
           <div class="row mt-3">
+          <!-- Site footer left column "Navigation" -->
             <div class="col-md-4 mx-auto mb-4">
               <h6 class="text-uppercase fw-bold mb-4">Secciones</h6>
               <p><a href="#" class="text-reset">Inicio</a></p>
@@ -179,6 +197,7 @@
               <p><a href="./pages/portfolio.html" class="text-reset">Portfolio</a></p>
               <p><a href="./pages/contact.html" class="text-reset">Contacto</a></p>
             </div>
+          <!-- Site footer center column "Conctact / Location" -->
             <div class="col-md-4 mx-auto mb-md-0 mb-4 text-center">
               <h6 class="text-uppercase fw-bold mb-4">
                 Contacto
@@ -192,6 +211,7 @@
               </p>
               <p><i class="fas fa-phone me-3"></i>+54 9 11 3007 3328</p>
             </div>
+          <!-- Site footer right column "Legal >> Data Fiscal" -->
             <div class="col-md-4 mx-auto mb-4 text-md-end">
               <h6 class="text-uppercase fw-bold mb-4">Sandra Torrez Make Up</h6>
               <a href="http://qr.afip.gob.ar/?qr=9cZQkhw6xIThqUDeFK6ZEA,," target="_F960AFIPInfo">
@@ -201,11 +221,13 @@
           </div>
         </div>
       </section>
+    <!-- Site footer end "Copyright" -->
       <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
         © 2022 Copyright:
         <a class="text-reset fw-bold" href="https://www.sandratorrez.com.ar/">Sandra Torrez Make Up</a>
       </div>
     </footer>
+  <!-- Scripts "Font Awesome >> Bootstrap" -->
     <script src="https://kit.fontawesome.com/c3ce25de79.js" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.bundle.js"></script>
 </body>

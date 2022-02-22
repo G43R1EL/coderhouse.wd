@@ -26,6 +26,17 @@
         background-color: var(--stm-color);
     }
 
+    /*------------*/
+   /* Animations */ 
+  /*------------*/
+    .hover__zoom {
+        transition: transform .5s;
+    }
+
+    .hover__zoom:hover {
+        transform: scale(1.1);
+    }
+
 
   /*--------*/
  /* Header */
