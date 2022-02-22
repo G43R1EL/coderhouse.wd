@@ -1,0 +1,74 @@
+  /**********/
+ /* Global */
+/**********/
+:root {
+    --stm-color: #bf9cce;
+}
+
+#datafiscal {
+    height: 8rem;
+}
+
+.text-stm {
+    color: var(--stm-color);
+}
+
+    /*-------*/
+   /* Forms */
+  /*-------*/
+    .btn-outline-stm {
+        color: var(--stm-color);
+        border-color: var(--stm-color);
+    }
+
+    .btn-outline-stm:hover {
+        color: #ffffff;
+        background-color: var(--stm-color);
+    }
+
+    /*------------*/
+   /* Animations */ 
+  /*------------*/
+    .hover__zoom {
+        transition: transform .5s;
+    }
+
+    .hover__zoom:hover {
+        transform: scale(1.1);
+    }
+
+
+  /*--------*/
+ /* Header */
+/*--------*/
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--stm-color);
+}
+
+  /*--------*/
+ /* Footer */
+/*--------*/
+footer section:first-of-type {
+    border-bottom: 1px solid var(--stm-color);
+}
+
+  /*------*/
+ /* Main */
+/*------*/
+    /*-------------*/
+   /* Testimonial */
+  /*-------------*/
+    .testimonial__img {
+        align-self: center;
+        width: 60%;
+        border-radius: 50%;
+        border: 0.3rem solid var(--stm-color);
+    }
+
+    .card .card-title {
+        color: var(--stm-color);
+    }
+
+   .card q {
+        font-style: italic;
+    }
