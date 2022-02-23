@@ -1,6 +1,7 @@
-@import "./global";
-@import "./forms";
-@import "./animations";
-@import "./header";
-@import "./footer";
-@import "./_components";
+@import "./partials/vars";
+@import "./partials/common";
+@import "./partials/forms";
+@import "./partials/animations";
+@import "./partials/header";
+@import "./partials/footer";
+@import "./partials/components";

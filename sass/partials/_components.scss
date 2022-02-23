@@ -8,15 +8,15 @@
         align-self: center;
         width: 60%;
         border-radius: 50%;
-        border: 0.3rem solid var(--stm-color);
+        border: 0.3rem solid $stm__color;
     }
 
     /*------*/
    /* Card */
   /*------*/
     .card {
-        .card-title {
-            color: var(--stm-color);
+        &-title {
+            color: $stm__color;
         }
         q {
             font-style: italic;

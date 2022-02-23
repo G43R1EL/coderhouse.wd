@@ -1,0 +1,11 @@
+  /*-------*/
+ /* Forms */
+/*-------*/
+.btn-outline-stm {
+    color: $stm__color;
+    border-color: $stm__color;
+    &:hover {
+        color: $highlight__color;
+        background-color: $stm__color;
+    }
+}
