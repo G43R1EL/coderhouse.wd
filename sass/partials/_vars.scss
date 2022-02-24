@@ -8,9 +8,9 @@ $colors: (
   "highlight": #ffffff,       /* Highlight Color */
 );
 
-@each $color, $var in $colors {
-  .#{$color}__color {
-    color: #{$var};
+:root {
+  @each $color, $var in $colors {
+    --#{$color}__color: #{$var};
   }
 }
 

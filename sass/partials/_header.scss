@@ -4,7 +4,7 @@
 .navbar-dark {
     .navbar-nav {
         .nav-link {
-            color: map-get($colors , "stm" );
+            color: var(--stm__color);
         }
     }
 }

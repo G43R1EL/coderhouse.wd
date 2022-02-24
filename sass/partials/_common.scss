@@ -8,5 +8,5 @@
 }
 
 .text-stm {
-    color: map-get($colors, "stm" );
+    color: var(--stm__color);
 }
