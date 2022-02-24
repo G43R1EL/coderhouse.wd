@@ -2,8 +2,8 @@
  /* Animations */ 
 /*------------*/
 .hover__zoom {
-    transition: transform $duration;
-    &:hover {
-        transform: scale($zoom);
-    }
+  transition: transform $duration;
+  &:hover {
+    transform: scale($zoom);
+  }
 }

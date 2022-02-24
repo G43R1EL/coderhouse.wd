@@ -2,10 +2,10 @@
  /* Forms */
 /*-------*/
 .btn-outline-stm {
-    color: var(--stm__color);
-    border-color: var(--stm__color);
-    &:hover {
-        color: var(--highlight__color);
-        background-color: var(--stm__color);
-    }
+  color: var(--stm__color);
+  border-color: var(--stm__color);
+  &:hover {
+    color: var(--highlight__color);
+    background-color: var(--stm__color);
+  }
 }
