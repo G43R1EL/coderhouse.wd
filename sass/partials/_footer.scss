@@ -3,6 +3,6 @@
 /*--------*/
 footer {
   section:first-of-type {
-    border-bottom: 1px solid $stm__color;
+    border-bottom: 1px solid map-get($colors, "stm" );
   }
 }

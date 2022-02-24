@@ -8,7 +8,7 @@
         align-self: center;
         width: 60%;
         border-radius: 50%;
-        border: 0.3rem solid $stm__color;
+        border: 0.3rem solid map-get($colors, "stm" );
     }
 
     /*------*/
@@ -16,7 +16,7 @@
   /*------*/
     .card {
         &-title {
-            color: $stm__color;
+            color: map-get($colors, "stm" );
         }
         q {
             font-style: italic;
@@ -45,26 +45,15 @@
     grid-row: span 2;
   }
 
-/*********************************/
-/** Tablet View Media Query    **/
-/*******************************/
-@media (min-width: 768px) {
-    /*************************/
-    /** Main content       **/
-    /***********************/
-    .masonry__gallery {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
 
-/*********************************/
-/** Desktop View Media Query   **/
-/*******************************/
-@media (min-width: 992px) {   
-    /*************************/
-    /** Main content       **/
-    /***********************/
+  @include tablet {
+    .masonry__gallery {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  @include desktop {
     .masonry__gallery {
         grid-template-columns: repeat(6, 1fr);
     }
-}
+  }

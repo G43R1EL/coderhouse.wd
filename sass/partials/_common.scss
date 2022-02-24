@@ -1,10 +1,12 @@
   /**********/
  /* Common */
 /**********/
+
+
 #datafiscal {
     height: $qrAfip;
 }
 
 .text-stm {
-    color: $stm__color;
+    color: map-get($colors, "stm" );
 }
