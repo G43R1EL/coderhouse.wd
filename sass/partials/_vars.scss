@@ -2,7 +2,7 @@
  /* Vars */
 /*------*/
 
-/* Colors */
+// Colors
 $colors: (
   "stm": #bf9cce,             /* STM Color */
   "highlight": #ffffff,       /* Highlight Color */
@@ -14,21 +14,21 @@ $colors: (
   }
 }
 
-/* Sizes */
-$qrAfip: 8rem;                /* QR Data Fiscal */
+// Sizes
+$qrAfip: 8rem;                // QR Data Fiscal
 
-/* Animations */
-$duration: .5s;               /* Pre-defined duration for animations */
-$zoom: 1.1;                   /* Zoom effect size 110% */
+// Animations
+$duration: .5s;               // Pre-defined duration for animations
+$zoom: 1.1;                   // Zoom effect size 110%
 
-/* Media Querys */
-  /* Desktop Media Query */
+// Media Querys
+  // Desktop Media Query
 @mixin desktop {     
   @media screen and (min-width: 992px) {
     @content;
   }
 }
-  /* Tablet Media Query */
+  // Tablet Media Query
 @mixin tablet {
   @media screen and (min-width: 768px) {
     @content;
