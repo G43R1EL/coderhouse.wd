@@ -22,13 +22,14 @@ $duration: .5s;               /* Pre-defined duration for animations */
 $zoom: 1.1;                   /* Zoom effect size 110% */
 
 /* Media Querys */
-@mixin desktop {              /* Desktop Media Query */
+  /* Desktop Media Query */
+@mixin desktop {     
   @media screen and (min-width: 992px) {
     @content;
   }
 }
-
-@mixin tablet {               /* Tablet Media Query */
+  /* Tablet Media Query */
+@mixin tablet {
   @media screen and (min-width: 768px) {
     @content;
   }

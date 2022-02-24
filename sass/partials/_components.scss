@@ -1,59 +1,49 @@
   /*------------*/
  /* Components */
 /*------------*/
-    /*-------------*/
-   /* Testimonial */
-  /*-------------*/
-    .testimonial__img {
-        align-self: center;
-        width: 60%;
-        border-radius: 50%;
-        border: 0.3rem solid var(--stm__color);
-    }
+  /* Testimonial */
+.testimonial__img {
+  align-self: center;
+  width: 60%;
+  border-radius: 50%;
+  border: 0.3rem solid var(--stm__color);
+}
 
-    /*------*/
-   /* Card */
-  /*------*/
-    .card {
-        &-title {
-            color: var(--stm__color);
-        }
-        q {
-            font-style: italic;
-        }
-    }
-
-    /*---------*/
-   /* Masonry */
-  /*---------*/
-  .masonry__gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  /* Card */
+.card {
+  &-title {
+    color: var(--stm__color);
   }
+  q {
+    font-style: italic;
+  }
+}
 
-  .masonry__gallery img {
+  /* Masonry */
+.masonry__gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  @include tablet {
+    & {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  @include desktop {
+    & {
+        grid-template-columns: repeat(6, 1fr);
+    }
+  }
+  & .gallery__img--horizontal {
+    grid-column: span 2;
+  }
+  
+  & .gallery__img--vertical {
+    grid-row: span 2;
+  }
+  & img {
     height: 100%;
     width: 100%;
     object-fit: cover;
   }
+}
 
-  .masonry__gallery .gallery__img--horizontal {
-    grid-column: span 2;
-  }
-
-  .masonry__gallery .gallery__img--vertical {
-    grid-row: span 2;
-  }
-
-
-  @include tablet {
-    .masonry__gallery {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-
-  @include desktop {
-    .masonry__gallery {
-        grid-template-columns: repeat(6, 1fr);
-    }
-  }
