@@ -3,8 +3,16 @@
 /*------*/
 
 /* Colors */
-$stm__color: #bf9cce;       /* STM Color */
-$highlight__color: #ffffff; /* Highlight color */
+$colors: (
+  stm: #bf9cce,             /* STM Color */
+  highlight: #ffffff,       /* Highlight Color */
+);
+
+@each $color, $var in $colors {
+  .#{color}__color {
+    color: #{$var};
+  }
+}
 
 /* Sizes */
 $qrAfip: 8rem;                /* QR Data Fiscal */

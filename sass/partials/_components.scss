@@ -29,21 +29,21 @@
   .masonry__gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
+  }
 
-.masonry__gallery img {
+  .masonry__gallery img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-}
+  }
 
-.masonry__gallery .gallery__img--horizontal {
+  .masonry__gallery .gallery__img--horizontal {
     grid-column: span 2;
-}
+  }
 
-.masonry__gallery .gallery__img--vertical {
+  .masonry__gallery .gallery__img--vertical {
     grid-row: span 2;
-}
+  }
 
 /*********************************/
 /** Tablet View Media Query    **/
@@ -60,7 +60,7 @@
 /*********************************/
 /** Desktop View Media Query   **/
 /*******************************/
-@media (min-width: 1024px) {   
+@media (min-width: 992px) {   
     /*************************/
     /** Main content       **/
     /***********************/
