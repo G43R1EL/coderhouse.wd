@@ -1,14 +1,6 @@
   /*------------*/
  /* Components */
 /*------------*/
-  /* Testimonial */
-.testimonial__img {
-  align-self: center;
-  width: 60%;
-  border-radius: 50%;
-  border: 0.3rem solid var(--stm__color);
-}
-
   /* Card */
 .card {
   &-title {
@@ -17,6 +9,18 @@
   q {
     font-style: italic;
   }
+  &__testimonial__img {
+    align-self: center;
+    width: 60%;
+    border-radius: 50%;
+    border: 0.3rem solid var(--stm__color);
+  }
+}
+
+  /* Modal */
+.modal-title {
+  @extend .card-title;
+  font-style: italic;
 }
 
   /* Masonry */

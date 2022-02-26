@@ -47,18 +47,21 @@ footer section:first-of-type {
 /*------------*/
 /* Components */
 /*------------*/
-/* Testimonial */
-.testimonial__img {
+/* Card */
+.card-title, .modal-title {
+  color: var(--stm__color); }
+
+.card q {
+  font-style: italic; }
+
+.card__testimonial__img {
   align-self: center;
   width: 60%;
   border-radius: 50%;
   border: 0.3rem solid var(--stm__color); }
 
-/* Card */
-.card-title {
-  color: var(--stm__color); }
-
-.card q {
+/* Modal */
+.modal-title {
   font-style: italic; }
 
 /* Masonry */
