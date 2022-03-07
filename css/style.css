@@ -54,11 +54,20 @@ footer section:first-of-type {
 .card q {
   font-style: italic; }
 
+.card a {
+  color: var(--stm__color);
+  font-weight: bold;
+  text-decoration: none; }
+
 .card__testimonial__img {
   align-self: center;
   width: 60%;
   border-radius: 50%;
   border: 0.3rem solid var(--stm__color); }
+
+.card img.img-fluid {
+  height: 100%;
+  object-fit: cover; }
 
 /* Modal */
 .modal-title {
@@ -82,3 +91,7 @@ footer section:first-of-type {
     height: 100%;
     width: 100%;
     object-fit: cover; }
+
+/* Copyright footer */
+.copyright {
+  background-color: rgba(0, 0, 0, 0.1); }

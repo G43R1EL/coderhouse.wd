@@ -9,11 +9,20 @@
   q {
     font-style: italic;
   }
+  a {
+    color: var(--stm__color);
+    font-weight: bold;
+    text-decoration: none;
+  }
   &__testimonial__img {
     align-self: center;
     width: 60%;
     border-radius: 50%;
     border: 0.3rem solid var(--stm__color);
+  }
+  img.img-fluid {
+    height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -51,3 +60,7 @@
   }
 }
 
+  /* Copyright footer */
+.copyright {
+  background-color: rgba(0, 0, 0, .1);
+}
