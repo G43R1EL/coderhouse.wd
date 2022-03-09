@@ -7,3 +7,35 @@
     transform: scale($zoom);
   }
 }
+
+.fadeIn {
+  animation: fade_In $duration;
+  -webkit-animation: fade_In $duration;
+  -moz-animation: fade_In $duration;
+  -o-animation: fade_In $duration;
+  -ms-animation: fade_In $duration;
+}
+@keyframes fade_In {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fade_In {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fade_In {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fade_In {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fade_In {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}

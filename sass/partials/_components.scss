@@ -36,27 +36,52 @@
 .masonry__gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  
   @include tablet {
     & {
       grid-template-columns: repeat(4, 1fr);
     }
   }
+  
   @include desktop {
     & {
         grid-template-columns: repeat(6, 1fr);
     }
   }
+  
   & .gallery__img--horizontal {
     grid-column: span 2;
+    position: relative;
+    overflow: hidden;
+    &:hover .text--center {
+      display: block;
+    }
   }
   
   & .gallery__img--vertical {
     grid-row: span 2;
+    position: relative;
+    overflow: hidden;
+    &:hover .text--center {
+      display: block;
+    }
   }
+  
   & img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+  }
+
+  & .text--center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    padding: 1rem;
+    background-color: var(--alpha_gray__color);
+    color: var(--highlight__color);
   }
 }
 

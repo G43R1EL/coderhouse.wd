@@ -4,8 +4,9 @@
 
 // Colors
 $colors: (
-  "stm": #bf9cce,             /* STM Color */
-  "highlight": #ffffff,       /* Highlight Color */
+  "stm": #bf9cce,                  /* STM Color */
+  "highlight": #ffffff,            /* Highlight Color */
+  "alpha_gray": rgba(#555555, .5)  /* Alpha gray background Color */
 );
 
 :root {
