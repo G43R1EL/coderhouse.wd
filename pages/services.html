@@ -13,7 +13,9 @@
   <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!-- Animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Sandra Torrez Style -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../assets/isologo_sandratorrez.svg" type="image/x-icon">
@@ -73,7 +75,7 @@
   <!-- Site content -->
     <main class="container overflow-hidden">
       <h1 class="text-stm mt-5">Servicios ofrecidos en el estudio</h1>
-      <div class="card my-3">
+      <div class="card my-3" data-aos="fade-right">
         <div class="row g-0">
           <div class="col-md-6">
             <img src="../assets/social.webp" class="img-fluid" alt="Maquillaje social" style="object-fit: cover;">
@@ -90,7 +92,7 @@
           </div>
         </div>
       </div>
-      <div class="card my-3">
+      <div class="card my-3" data-aos="fade-left">
         <div class="row g-0">
           <div class="col-md-6 order-md-2">
             <img src="../assets/editorial.webp" class="img-fluid" alt="Maquillaje editorial">
@@ -106,7 +108,7 @@
           </div>
         </div>
       </div>
-      <div class="card my-3">
+      <div class="card my-3" data-aos="fade-right">
         <div class="row g-0">
           <div class="col-md-6">
             <img src="../assets/carrera.webp" class="img-fluid" alt="Carrera de maquillaje profesional inicial">
@@ -122,7 +124,7 @@
           </div>
         </div>
       </div>
-      <div class="card my-3">
+      <div class="card my-3" data-aos="fade-left">
         <div class="row g-0">
           <div class="col-md-6 order-md-2">
             <img src="../assets/automaquillaje.webp" class="img-fluid" alt="Taller de automaquillaje">
@@ -200,5 +202,10 @@
   <!-- Scripts "Font Awesome >> Bootstrap" -->
     <script src="https://kit.fontawesome.com/c3ce25de79.js" crossorigin="anonymous"></script>
     <script src="../js/bootstrap.bundle.js"></script>
+  <!-- Script "Animate on scroll" -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
