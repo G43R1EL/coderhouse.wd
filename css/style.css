@@ -148,7 +148,8 @@ footer section:first-of-type {
     display: none;
     padding: 1rem;
     background-color: var(--alpha_gray__color);
-    color: var(--highlight__color); }
+    color: var(--highlight__color);
+    border: 1px solid rgba(255, 255, 255, 0.25); }
 
 /* Copyright footer */
 .copyright {
